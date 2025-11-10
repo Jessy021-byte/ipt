@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="CREATE AN ACCOUNT"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="arial"
+        android:text="ENTER YOUR MOBILE NUMBER"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:ignore="TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:hint="+63 99113344556"
+        android:textColorHighlight="@color/black"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="arial"
+        android:text="ENTER YOUR EMAIL"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="abcd@123.com"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="arial"
+        android:text="ENTER YOUR PASSWORD"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="********"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="arial"
+        android:text="RE ENTER YOUR PASSWORD"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="********"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.09"
+        android:text="Sign up"
+        android:background="@drawable/custom_buttonbg"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.09"
+        android:text="CONTINUE WITH GOOGLE"
+        android:background="@drawable/custom_buttonbg"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.09"
+        android:text="CONTINUE WITH APPLE"
+        android:background="@drawable/custom_buttonbg"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
+
+
